@@ -1,0 +1,100 @@
+body
+{
+    background-image: url("tlo.png");
+    background-repeat: repeat;
+    background-position: center bottom;
+    font-family: Arial;
+}
+
+#container
+{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    width: 1000px;
+    text-align: center;
+}
+
+#lekcontainer
+{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    width: 1000px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(0, 0, 0);
+}
+
+.lekname
+{
+    width: 500px;
+    height: 100px;
+    text-align: center;
+    border: 1px solid rgb(0, 0, 0);
+}
+
+.lekopis
+{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    width: 500px;
+    text-align: center;
+}
+
+.lekzdjecie
+{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    width: 500px;
+    text-align: center;
+}
+
+.kurs
+{
+    display: inline-block;
+    width: 300px;
+    background-color: white;
+    margin: 0 10px;
+    border: 1px solid brown;
+    opacity: 1;
+}
+
+.kurs p
+{
+    font-size: 15px;
+    text-align: justify;
+    line-height: 140%;
+    margin: 20px;
+}
+
+h1
+{
+    font-size: 22px;
+    font-weight: 700;
+    font-style: italic;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+h2
+{
+    font-size: 18px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+pasek
+{
+    font-size: 70px;
+}
+
+ul.lista > li
+{
+    margin-left: 10px;
+}
